@@ -1,6 +1,8 @@
 # How to convert an AHN LAZ dataset to COPC with checksum
 > Note that when running the "heavy" commands on a remote machine, prefix them by `nohup`, so the process continues when disconnected from the machine, and suffix them by `&`, so the process doesn't block the terminal.
+>
 > When running the "PDAL" commands, the PDAL environment will have to be activated.
+>
 > Note that we have machine specific convenience scripts for running these processes in the `machine_scripts/` directory.
 
 ## Download AHN dataset (heavy)
